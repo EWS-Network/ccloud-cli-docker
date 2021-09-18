@@ -1,7 +1,7 @@
 ﻿ARG ARCH=amd64
 ARG OS=linux
-ARG BASE_TAG=11
-ARG BASE_IMAGE=public.ecr.aws/compose-x/amazoncorretto:${BASE_TAG}
+ARG BASE_TAG=2
+ARG BASE_IMAGE=public.ecr.aws/amazonlinux/amazonlinux:${BASE_TAG}
 
 FROM $BASE_IMAGE as unzipper
 WORKDIR /opt
