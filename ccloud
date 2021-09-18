@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run --rm -v /tmp:/root/ public.ecr.aws/ews-network/confluentinc/ccloud-cli $@
+
